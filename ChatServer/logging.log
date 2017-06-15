@@ -1,0 +1,72 @@
+2017-06-15 14:44:07 INFO  c.c.C.ChatServerApplication:48 - Starting ChatServerApplication on LAPTOP-Jop with PID 17308 (started by jop in /home/jop/windows-data/Jop van Buuren/Documents/Hogeschool/Vakken/DistributedOpdracht/ChatServer)
+2017-06-15 14:44:07 INFO  c.c.C.ChatServerApplication:637 - No active profile set, falling back to default profiles: default
+2017-06-15 14:44:07 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ae3c1cd: startup date [Thu Jun 15 14:44:07 UTC 2017]; root of context hierarchy
+2017-06-15 14:44:07 INFO  o.h.v.i.u.Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-15 14:44:08 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-15 14:44:08 INFO  o.a.c.c.StandardService:179 - Starting service Tomcat
+2017-06-15 14:44:08 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-15 14:44:08 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-06-15 14:44:08 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1161 ms
+2017-06-15 14:44:08 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-15 14:44:08 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-15 14:44:08 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-15 14:44:08 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-15 14:44:08 INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-06-15 14:44:08 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-15 14:44:09 INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2899a8db, org.springframework.security.web.context.SecurityContextPersistenceFilter@85ec632, org.springframework.security.web.header.HeaderWriterFilter@3be8821f, org.springframework.security.web.csrf.CsrfFilter@49ef32e0, org.springframework.security.web.authentication.logout.LogoutFilter@49bd54f7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@450794b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65ef722a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e27ba81, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e8823d2, org.springframework.security.web.session.SessionManagementFilter@3b65e559, org.springframework.security.web.access.ExceptionTranslationFilter@66b72664, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6979efad]
+2017-06-15 14:44:09 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ae3c1cd: startup date [Thu Jun 15 14:44:07 UTC 2017]; root of context hierarchy
+2017-06-15 14:44:09 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-15 14:44:09 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-15 14:44:09 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-06-15 14:44:09 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:349 - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-06-15 14:44:09 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-06-15 14:44:09 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-06-15 14:44:09 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-15 14:44:09 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-15 14:44:09 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-15 14:44:09 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-15 14:44:09 INFO  o.a.c.h.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-15 14:44:09 INFO  o.a.c.h.Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-15 14:44:09 INFO  o.a.t.u.n.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2017-06-15 14:44:09 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:198 - Tomcat started on port(s): 8080 (http)
+2017-06-15 14:44:09 INFO  c.c.C.ChatServerApplication:57 - Started ChatServerApplication in 2.375 seconds (JVM running for 2.683)
+2017-06-15 14:44:09 INFO  c.c.C.DatabaseController:14 - Initialized controller
+2017-06-15 14:44:09 INFO  c.c.C.DatabaseController:24 - Opened database successfully
+2017-06-15 14:45:02 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:987 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ae3c1cd: startup date [Thu Jun 15 14:44:07 UTC 2017]; root of context hierarchy
+2017-06-15 14:45:02 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-06-15 14:45:02 INFO  c.c.C.ChatServerApplication:48 - Starting ChatServerApplication on LAPTOP-Jop with PID 17367 (started by jop in /home/jop/windows-data/Jop van Buuren/Documents/Hogeschool/Vakken/DistributedOpdracht/ChatServer)
+2017-06-15 14:45:02 INFO  c.c.C.ChatServerApplication:637 - No active profile set, falling back to default profiles: default
+2017-06-15 14:45:02 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ae3c1cd: startup date [Thu Jun 15 14:45:02 UTC 2017]; root of context hierarchy
+2017-06-15 14:45:02 INFO  o.h.v.i.u.Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-15 14:45:03 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-15 14:45:03 INFO  o.a.c.c.StandardService:179 - Starting service Tomcat
+2017-06-15 14:45:03 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-15 14:45:03 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-06-15 14:45:03 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1174 ms
+2017-06-15 14:45:03 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-15 14:45:03 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-15 14:45:03 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-15 14:45:03 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-15 14:45:03 INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-06-15 14:45:03 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-15 14:45:04 INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12365c88, org.springframework.security.web.context.SecurityContextPersistenceFilter@e362c57, org.springframework.security.web.header.HeaderWriterFilter@1c05a54d, org.springframework.security.web.csrf.CsrfFilter@4d4d48a6, org.springframework.security.web.authentication.logout.LogoutFilter@3d829787, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3b582111, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79c4715d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b5f8707, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6105f8a3, org.springframework.security.web.session.SessionManagementFilter@5fd9b663, org.springframework.security.web.access.ExceptionTranslationFilter@bae47a0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54e81b21]
+2017-06-15 14:45:04 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ae3c1cd: startup date [Thu Jun 15 14:45:02 UTC 2017]; root of context hierarchy
+2017-06-15 14:45:04 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-15 14:45:04 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-15 14:45:04 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-06-15 14:45:04 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:349 - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-06-15 14:45:04 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-06-15 14:45:04 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-06-15 14:45:04 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-15 14:45:04 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-15 14:45:04 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-15 14:45:04 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-15 14:45:04 INFO  o.a.c.h.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-15 14:45:04 INFO  o.a.c.h.Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-15 14:45:04 INFO  o.a.t.u.n.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2017-06-15 14:45:04 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:198 - Tomcat started on port(s): 8080 (http)
+2017-06-15 14:45:04 INFO  c.c.C.ChatServerApplication:57 - Started ChatServerApplication in 2.457 seconds (JVM running for 2.751)
+2017-06-15 14:45:04 INFO  c.c.C.DatabaseController:14 - Initialized controller
+2017-06-15 14:45:04 INFO  c.c.C.DatabaseController:24 - Opened database successfully
+2017-06-15 14:45:16 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:987 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ae3c1cd: startup date [Thu Jun 15 14:45:02 UTC 2017]; root of context hierarchy
+2017-06-15 14:45:16 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
