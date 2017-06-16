@@ -1,4 +1,4 @@
-package com.chatServer.Controllers;
+package com.chatServer.ChatServer.Controllers;
 
 import java.sql.*;
 

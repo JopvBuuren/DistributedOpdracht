@@ -3,7 +3,7 @@ package com.chatServer.ChatServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.chatServer.Controllers.DatabaseController;
+import com.chatServer.ChatServer.Controllers.DatabaseController;
 
 public class SessionManager {
 static Logger logger = LoggerFactory.getLogger(DatabaseController.class);

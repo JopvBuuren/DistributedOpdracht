@@ -4,11 +4,23 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Server {
-	static Logger logger = LoggerFactory.getLogger(Server.class);
+	protected static final String path = "/";
+	private boolean state = true;
 	
-	Server(){
-		logger.info("Initialized server");
+	public Server(){
+		
 	}
-
+	
+	public void activate(){
+		state = true;
+	}
+	
+	public void deActivate(){
+		state = false;
+	}
+	
+	public boolean isActive(){
+		return state;
+	}
 
 }
