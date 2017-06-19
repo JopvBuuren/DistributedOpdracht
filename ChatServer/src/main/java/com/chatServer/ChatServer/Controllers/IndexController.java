@@ -19,7 +19,7 @@ import com.chatServer.ChatServer.Frames.RegistrationFrame;
 public class IndexController{
 	private static final String PATH = "/";
 	static Logger logger = LoggerFactory.getLogger(IndexController.class);
-
+	
 	public IndexController(){
 		logger.info("Initialized controller");
 	}
