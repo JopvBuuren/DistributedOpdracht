@@ -78,6 +78,7 @@ public class DatabaseController {
 				
 				// validate
 				succes = isAuth(name, password);
+				st.close();
 			}
 		} catch (SQLException e) {
 			logger.error("Failed to add user" + e);

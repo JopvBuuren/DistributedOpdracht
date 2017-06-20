@@ -1,21 +1,25 @@
 package com.chatServer.ChatServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.chatServer.ChatServer.Controllers.DatabaseController;
 
-@RestController
+@Controller
 @RequestMapping("/login")
 public class LoginController {
 	DatabaseController dbc = DatabaseController.getInstance();
 	
 	@RequestMapping(value = "")
     public String test() {
-        return "text a";
+		ModelAndView vw = new ModelAndView();
+		vw.setViewName("login");
+        return "login";
     }
 	
 	@RequestMapping(value = "enc", method = RequestMethod.POST)
