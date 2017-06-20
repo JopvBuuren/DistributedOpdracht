@@ -9,26 +9,28 @@
 
 	<c:url value="/css/stylesheet.css" var="jstlCss" />
 	<link href="${jstlCss}" rel="stylesheet" type="text/css" />
-	<title>Chat</title>
+	<title>Welcome</title>
 </head>
 <body>
-	<div class="header">
-		<h1> ChatServer </h1>
-	</div>
 	<div class="container">
 		<div class="side">
+			<h1> Chat Server </h1>
 			<ul>
-				<li> nothing here </li>
+				<li> 
+					<a class="menuItem" href="login">Login</a> 
+				</li>
+				<li> 
+					<a class="menuItem" href="register">Register</a> 
+				</li>
 			</ul>
 		</div>
 		<div class="content">
+			<h2> Welcome </h2>
 			<p> 
 				Welcome to the chat server, this java server is made for distributes systems 2017 @ HU
 			</p>	
 		</div>
 		
 	</div>
-	<div class="footer"> @ HU 2017 </div>
-	
 </body>
 </html>

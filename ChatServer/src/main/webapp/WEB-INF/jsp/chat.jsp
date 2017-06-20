@@ -4,31 +4,37 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Chat</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+	<c:url value="/css/stylesheet.css" var="jstlCss" />
+	<link href="${jstlCss}" rel="stylesheet" type="text/css" />
+	<title>Welcome</title>
 </head>
 <body>
-	<div class="header">
-		<h1> Chat </h1>
-	</div>
 	<div class="container">
 		<div class="side">
+			<h1> Chat Server </h1>
+			
 			<ul>
+				<li class="menuItem">
+					<a href="login?logout=true">Logout</a>
+				</li>
 				<c:forEach items="${list}" var="user">
-				    <li>
+				    <li class="menuItem">
 				    	<c:out value="${user}" />
 				    </li>
 	  			</c:forEach>
 			</ul>
 		</div>
 		<div class="content">
-			<p> 
-				Welcome to the chat server, this java server is made for distributes systems 
-			</p>	
+			<h2> Login </h2>
+			<form action="/login">
+				  User:<br>
+				  <input type="text" name="user" value="user"><br>
+				  Password:<br>
+				  <input type="password" name="password" value="pass"><br><br>
+				  <input type="submit" value="Submit">
+			</form>	
 		</div>
-	</div>
-	<div class="footer"> @ HU 2017 </div>
-	
-</body>
-</html>
 
